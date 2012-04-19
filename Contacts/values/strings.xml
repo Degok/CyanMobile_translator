@@ -1408,7 +1408,7 @@
     <!-- strings added for speed dial support ends -->
 
     <!-- CMContacts -->
-    <string name="cmcontacts_title">Export/Import Contacts</string>
-    <string name="cmcontacts_summary">Export/import, edit, delete and manage contacts</string>
+    <string name="cmcontacts_title">Export/Import SIM Contacts</string>
+    <string name="cmcontacts_summary">Export/import, edit, delete and manage sim contacts</string>
 
 </resources>

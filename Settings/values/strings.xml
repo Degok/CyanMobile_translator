@@ -692,7 +692,7 @@
     <!--Used as title on second screen after selecting Bluetooth settings -->
     <string name="bluetooth_settings">Bluetooth settings</string>
     <!--Wireless controls screen, settings title for the item to take you to the bluetooth settings screen -->
-    <string name="bluetooth_settings_title">Bluetooth settings</string>
+    <string name="bluetooth_settings_title">Bluetooth</string>
     <!--Wireless controls screen, settings summary for the item tot ake you to the bluetooth settings screen -->
     <string name="bluetooth_settings_summary">Manage connections, set device name &amp; discoverability</string>
 
@@ -845,7 +845,7 @@
     <!-- Used in the 1st-level settings screen as the turn-on summary -->
     <string name="wifi_quick_toggle_summary">Turn on Wi-Fi</string>
     <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen -->
-    <string name="wifi_settings">Wi-Fi settings</string>
+    <string name="wifi_settings">Wi-Fi</string>
     <!-- Title of the Wi-Fi settings screen -->
     <string name="wifi_settings_category">Wi-Fi settings</string>
     <!-- Summary text of the Wi-Fi settings screen -->
@@ -1172,6 +1172,14 @@
     <string name="power_sounds_enable_title">Enable battery alert sound</string>
     <!-- Sound settings screen, setting option summary text -->
     <string name="power_sounds_enable_summary">Play sound with the full or low battery alert</string>
+    <!-- Sound settings screen, setting check box label -->
+    <string name="power_batteryfull_enable_title">Enable battery full alert</string>
+    <!-- Sound settings screen, setting option summary text -->
+    <string name="power_batteryfull_enable_summary">Battery full alert will be enable, if checked</string>
+    <!-- Sound settings screen, setting check box label -->
+    <string name="power_batterylow_enable_title">Enable battery low alert</string>
+    <!-- Sound settings screen, setting option summary text -->
+    <string name="power_batterylow_enable_summary">Battery low alert will be enable, if checked</string>
     <!-- Sound settings screen, setting check box label -->
     <string name="haptic_feedback_enable_title">Haptic feedback</string>
     <!-- Sound settings screen, setting option summary text when check box is selected -->
@@ -2379,7 +2387,7 @@ when you are connected on trusted networks.\n\nDo you really want to enable this
     <skip/>
 
     <!-- Activity title for App Fuel Gauge summary -->
-    <string name="power_usage_summary_title">Battery use</string>
+    <string name="power_usage_summary_title">Battery</string>
     <!-- Activity title summary for App Fuel Gauge summary -->
     <string name="power_usage_summary">What has been using the battery</string>
     <!-- Battery usage since unplugged -->
@@ -3024,6 +3032,8 @@ when you are connected on trusted networks.\n\nDo you really want to enable this
 
     <string name="launcher_settings_title">ADWLauncher</string>
 
+    <string name="themechooser_settings_title">ThemeChooser</string>
+
     <string name="possibleButtons">Possible Buttons</string>
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Portable Wi-Fi hotspot</string>
@@ -3207,6 +3217,14 @@ when you are connected on trusted networks.\n\nDo you really want to enable this
     <string name="title_cache_part_info">/cache partition info</string>
     <string name="title_sdcard_fat_part_info">/sdcard partition info (fat)</string>
     <string name="title_sdcard_ext_part_info">/sdcard partition info (ext)</string>
+
+    <string name="settings_ics_system">SYSTEM</string>
+    <string name="settings_ics_radio">WIRELESS &amp; NETWORKS</string>
+    <string name="settings_radio_more">More...</string>
+    <string name="settings_ics_device">DEVICE</string>
+    <string name="settings_ics_personal">PERSONAL</string>
+    <string name="settings_ics_system_cap">SYSTEM</string>
+    <string name="settings_ics_interface">INTERFACE</string>
 
     <string name="used_out_of">used out of</string>
     <string name="default_unavailable">Unavailable</string>

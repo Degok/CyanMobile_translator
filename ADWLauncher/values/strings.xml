@@ -197,8 +197,11 @@
     <string name="pref_title_desktop_dots">Desktop dots</string>
     <string name="pref_summary_desktop_dots">Show/hide the nexus style pagination dots</string>
 
-    <string name="pref_title_dockbar">Dockbar</string>
-    <string name="pref_summary_dockbar">Enable/disable the new dockbar for your shortcuts</string>
+    <string name="pref_title_dockbar">Dockbar Center</string>
+    <string name="pref_summary_dockbar">Enable/disable the new dockbar center for your shortcuts</string>
+
+    <string name="pref_title_dockbar3">Dockbar Right</string>
+    <string name="pref_summary_dockbar3">Enable/disable the new dockbar right for your shortcuts</string>
 
     <string name="pref_title_closing_dockbar">Closing dockbar</string>
     <string name="pref_summary_closing_dockbar">Auto-close dockbar after app-launch</string>

@@ -42,6 +42,13 @@
     <string name="pref_rotation_animation_summary">Requires a reboot</string>
     <string name="lcd_density_title">LCD Density</string>
     <string name="lcd_density_summary">unknown</string>
+    <string name="lcd_density_category_title">LCD Density Option</string>
+    <string name="reboot_title">Click to Reboot!</string>
+    <string name="reboot_summary">Reboot device after changing density</string>
+    <string name="clear_market_data_title">Clear market data</string>
+    <string name="clear_market_data_cleared">Market data cleared</string>
+    <string name="pref_vibrate_on_shutdown_title">Vibrate on shutdown</string>
+    <string name="pref_vibrate_on_shutdown_summary">Whether to vibrate on shutdown or not</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Tablet tweaks</string>
@@ -108,8 +115,14 @@
     <string name="ui_status_bar_leftclock_summary">Clock will be on the left side, if checked</string>
     <string name="ui_status_bar_clockcolor_title">Clock color</string>
     <string name="ui_status_bar_clockcolor_summary">ffffffff</string>
+    <string name="ui_status_bar_carriercolor_title">Carrier color</string>
+    <string name="ui_status_bar_carriercolor_summary">ffffffff</string>
+    <string name="ui_status_bar_lockscreencolor_title">Lockscreen widget color</string>
+    <string name="ui_status_bar_lockscreencolor_summary">ffffffff</string>
     <string name="ui_status_bar_date_title">Show date</string>
     <string name="ui_status_bar_date_summary">Status bar date will be hidden, if disabled</string>
+    <string name="ui_status_bar_notif_title">Show notif icon</string>
+    <string name="ui_status_bar_notif_summary">Status bar notif icon will be hidden, if disabled</string>
     <string name="ui_status_bar_recent_apps_title">Recent apps on status bar</string>
     <string name="ui_status_bar_recent_apps_summary">Display at most 16 apps</string>
     <string name="ui_status_bar_battery_title">Battery status style</string>
@@ -123,6 +136,12 @@
     <string name="ui_status_bar_reverse_title">Reverse statusbar icon</string>
     <string name="ui_status_bar_reverse_summary_on">Reverse layout enabled</string>
     <string name="ui_status_bar_reverse_summary_off">Reverse layout disabled</string>
+    <string name="statusbar_clockfontsize">Clock Font Size</string>
+    <string name="statusbar_clockfontsize_summary">Change the size of text elements on clock</string>
+    <string name="statusbar_iconfontsize">Statusbar Font Size</string>
+    <string name="statusbar_iconfontsize_summary">Change the size of text elements on statusbar</string>
+    <string name="statusbar_carrierfontsize">Carrier Font Size</string>
+    <string name="statusbar_carrierfontsize_summary">Change the size of text elements on carrier</string>
     <string name="ui_status_bar_statusbar_carrier_title">Right carrier label</string>
     <string name="ui_status_bar_statusbar_carrier_summary">Add right carrier label into statusbar</string>
     <string name="ui_status_bar_statusbar_carrier_center_title">Center carrier label</string>
@@ -131,9 +150,11 @@
     <string name="ui_status_bar_statusbar_carrier_left_summary">Add left carrier label into statusbar</string>
     <string name="ui_status_bar_compact_carrier_title">Compact carrier label</string>
     <string name="ui_status_bar_compact_carrier_summary">Use alternate notification dropdown layout with mini carrier label</string>
+    <string name="ui_status_bar_bottom_carrier_title">Bottom carrier label</string>
+    <string name="ui_status_bar_bottom_carrier_summary">Use alternate tracking bottom carrier label</string>
     <string name="ui_status_bar_carrier_logo_title">Left carrier logo</string>
     <string name="ui_status_bar_carrier_logo_summary">Add left carrier logo into statusbar</string>
-    <string name="ui_status_bar_carrier_logo_image_title">Change carrier logo image</string>
+    <string name="ui_status_bar_carrier_logo_image_title">Change logo image</string>
     <string name="ui_status_bar_carrier_logo_image_summary">Carrier logo image will be change, if checked</string>
     <string name="ui_status_bar_carrier_logo_center_title">Center carrier logo</string>
     <string name="ui_status_bar_carrier_logo_center_summary">Add center carrier logo into statusbar</string>
@@ -150,8 +171,18 @@
     <string name="ui_status_bar_toggle_brightness">Status bar brightness control</string>
     <string name="ui_status_bar_toggle_brightness_summary">Allows adjusting of brightness by sliding across statusbar</string>
     <string name="ui_status_bar_toggle_info">Automatic brightness is enabled</string>
-    <string name="ui_status_bar_cm_signal_text_title">Alternate signal display</string>
-    <string name="ui_status_bar_cm_signal_text_summary">Show dBm value instead of signal bars</string>
+    <string name="ui_status_bar_cm_signal_text_title">Phone signal display</string>
+    <string name="ui_status_bar_cm_signal_text_summary">Show dBm value instead of signal bars, or hide</string>
+    <string name="ui_status_bar_wifi_title">Show WiFi icon</string>
+    <string name="ui_status_bar_wifi_summary">Uncheck to hide the WiFi icon</string>
+    <string name="ui_status_bar_bluetooth_title">Show Bluetooth Icon</string>
+    <string name="ui_status_bar_bluetooth_summary">Uncheck to hide the Bluetooth icon</string>
+    <string name="ui_status_bar_3g_title">Show 3G signal icon</string>
+    <string name="ui_status_bar_3g_summary">Uncheck to hide the 3G signal icon</string>
+    <string name="ui_status_bar_gps_title">Show GPS icon</string>
+    <string name="ui_status_bar_gps_summary">Uncheck to hide the GPS icon</string>
+    <string name="ui_status_bar_sync_title">Show Sync icon</string>
+    <string name="ui_status_bar_sync_summary">Uncheck to hide the Sync icon</string>
     <string name="ui_status_bar_cm_signal_text_show_bars">Signal bars</string>
     <string name="ui_status_bar_cm_signal_hidden">Hide signal</string>
     <string name="ui_status_bar_cm_signal_text_show_text">Signal text</string>
@@ -217,6 +248,7 @@
     <!-- Color Picker -->
     <string name="title_color_picker">Pick a color</string>
     <string name="msg_color_picker">Tap on center color to confirm.\nPress back to cancel</string>
+    <string name="pref_dialog_color_picker_alpha">alpha</string>
 
     <!-- User interface: Boot animation -->
     <string name="ui_bootanim_cat_title">Boot animation</string>
@@ -621,6 +653,7 @@
     <string name="general_title">General</string>
     <string name="power_title">Power menu</string>
     <string name="clock_title">Clock</string>
+    <string name="icons_title">Icons</string>
     <string name="carrier_title">Carrier</string>
     <string name="statusbar_carrier_title">Statusbar Carrier Label</string>
     <string name="logo_carrier_title">Statusbar Carrier Logo</string>
@@ -653,6 +686,9 @@
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Haptic Feedback</string>
     <string name="expanded_haptic_feedback_summary">Enable/Disable haptic feedback.</string>
+
+    <string name="title_music_widget">Music widget</string>
+    <string name="summary_music_widget">Enable/Disable Music widget.</string>
 
     <!-- UI Settings : Render effect -->
     <string name="pref_render_effect_title">Render effect</string>
@@ -735,6 +771,7 @@
     <string name="title_toggle_brightness">Toggle Brightness</string>
     <string name="title_toggle_sync">Toggle Sync</string>
     <string name="title_toggle_wifiap">Toggle Wifi AP</string>
+    <string name="title_toggle_usbap">Toggle Usb tether</string>
     <string name="title_toggle_screentimeout">Toggle Screentimeout</string>
     <string name="title_toggle_mobiledata">Toggle Mobiledata</string>
     <string name="title_toggle_lockscreen">Toggle Lockscreen</string>

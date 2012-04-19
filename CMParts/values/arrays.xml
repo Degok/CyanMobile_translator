@@ -168,6 +168,78 @@
         <item>custom</item>
     </string-array>
 
+     <string-array name="statusbar_clockfontsize_entries">
+        <item>8dp</item>
+        <item>10dp</item>
+        <item>12dp</item>
+        <item>14dp(Default)</item>
+        <item>16dp</item>
+        <item>18dp</item>
+        <item>20dp</item>
+        <item>22dp</item>
+        <item>24dp</item>
+     </string-array>
+  
+     <string-array name="statusbar_clockfontsize_values">
+        <item>8</item> 
+        <item>10</item>   
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+     </string-array>
+
+     <string-array name="statusbar_iconfontsize_entries">
+        <item>8dp</item>
+        <item>10dp</item>
+        <item>12dp</item>
+        <item>14dp(Default)</item>
+        <item>16dp</item>
+        <item>18dp</item>
+        <item>20dp</item>
+        <item>22dp</item>
+        <item>24dp</item>
+     </string-array>
+  
+     <string-array name="statusbar_iconfontsize_values">
+        <item>8</item>
+        <item>10</item>    
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+     </string-array>
+
+     <string-array name="statusbar_carrierfontsize_entries">
+        <item>8dp</item>
+        <item>10dp</item>
+        <item>12dp</item>
+        <item>14dp(Default)</item>
+        <item>16dp</item>
+        <item>18dp</item>
+        <item>20dp</item>
+        <item>22dp</item>
+        <item>24dp</item>
+     </string-array>
+  
+     <string-array name="statusbar_carrierfontsize_values">
+        <item>8</item>
+        <item>10</item> 
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+     </string-array>
+
      <string-array name="entries_status_bar_signal" translatable="false">
         <item>@string/ui_status_bar_cm_signal_text_show_bars</item>
         <item>@string/ui_status_bar_cm_signal_text_show_text</item>
@@ -909,6 +981,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
     
     <string-array name="entries_transparent_status_bar">
@@ -918,6 +991,7 @@
         <item>Gradient</item>
         <item>Custom Color</item>
         <item>Transparent</item>
+        <item>Custom Image</item>
     </string-array>
 
     <string-array name="values_transparent_notification_background">
