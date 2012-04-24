@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="adw_changelog">
--&lt;b>NOTICE:&lt;/b> Welcome to CyanMobile reVo A &lt;br>&lt;br>
--&lt;b>REMEMBER:&lt;/b> Before you ask something, Please Play more with rom &lt;br>&lt;br>
+-&lt;b>NOTICE:&lt;/b> Добро пожаловать на CyanMobile reVo A &lt;br>&lt;br>
+-&lt;b>Запомните:&lt;/b> Прежде чем задавать вопросы, пожалуйста поиграйте побольше с прошивкой &lt;br>&lt;br>
 
-&lt;b>Revolution release:&lt;/b>&lt;br>
+&lt;b>Релиз Revolution:&lt;/b>&lt;br>
 &lt;b>--------------&lt;/b>&lt;br>
--Refactor framework again for better view &lt;br>
--Add many new option &lt;br>
--update bash 4.2-rc1 &lt;br>
--update lsof 4.86 &lt;br>
--update skia &lt;br>
--Many bug fix &lt;br>
+-Снова переработан framework для лучшей визуализации &lt;br>
+-Добавлено много новых опций &lt;br>
+-обновлен bash 4.2-rc1 &lt;br>
+-обновлен lsof 4.86 &lt;br>
+-обновлен skia &lt;br>
+-Много других исправлений &lt;br>
 
 </string>
 </resources>
